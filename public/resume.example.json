@@ -7,9 +7,12 @@
         "phone": "+82 (0)10 8963 4207",
         "website": "https://github.com/Joe1220",
         "summary": [
-            "Front Web Programmer",
-            "Game",
-            "Calisthenics"
+            "HTML",
+            "CSS:  Sass/Scss",
+            "Javascript",
+            "Python: Django",
+            "Git: Githup을 이용한 Project 관리",
+            "AWS"
         ],
         "location": {
             "address": "인천광역시 동구 서해대로 564-5",
@@ -20,8 +23,13 @@
         },
         "profiles": [
             {
+                "network": "envelope",
+                "username": "lg",
+                "url": "mailto:joe1220@daum.net/"
+            },
+            {
                 "network": "github",
-                "username": "github",
+                "username": "lg",
                 "url": "https://github.com/Joe1220/"
             }
         ]
