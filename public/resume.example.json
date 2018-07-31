@@ -11,7 +11,7 @@
             "CSS:  Sass/Scss",
             "Javascript",
             "Python: Django",
-            "Git: Githup을 이용한 Project 관리",
+            "Git: GitHub을 이용한 Project 관리",
             "AWS"
         ],
         "location": {
@@ -31,6 +31,11 @@
                 "network": "github",
                 "username": "lg",
                 "url": "https://github.com/Joe1220/"
+            },
+            {
+                "network": "facebook",
+                "username": "lg",
+                "url": "https://www.facebook.com/sleep.joe"
             }
         ]
     },
