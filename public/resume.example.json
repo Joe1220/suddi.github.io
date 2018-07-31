@@ -20,9 +20,9 @@
         },
         "profiles": [
             {
-                "network": "<NETWORK>",
-                "username": "Jo Seung Hyun",
-                "url": "<URL>"
+                "network": "github",
+                "username": "github",
+                "url": "https://github.com/Joe1220/"
             }
         ]
     },
