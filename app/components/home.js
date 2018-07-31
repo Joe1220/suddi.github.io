@@ -29,13 +29,19 @@ const Home = React.createClass({
     },
 
     componentDidMount: function () {
-        return request
-            .get(this.props.route.config.resumePath)
-            .end(function (error, response) {
-                return error ? error : this.setState({
-                    resume: response.body
-                });
-            }.bind(this));
+        // return request
+        //     .get(this.props.route.config.resumePath)
+        //     .end(function (error, response) {
+        //         return error ? error : this.setState({
+        //             resume: response.body
+        //         });
+        //     }.bind(this));
+        fetch(this.props.route.config.resumePath)
+        .then(res => res.json())
+        .then(data => {
+            this.setState({ resume: data });
+        })
+        .catch(err => console.error(this.props.url, err.toString()))
     },
 
     onLoad: function () {

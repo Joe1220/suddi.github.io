@@ -5,7 +5,7 @@ const ReactDOM = require('react-dom');
 const Routes = require('./routes');
 
 function getResumePath() {
-    if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
+    if (['localhost', '127.0.0.1', 'http://jshresume.co.nf'].indexOf(window.location.hostname) === -1) {
         return '/public/resume.json';
     }
     return '/public/resume.example.json';
