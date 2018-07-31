@@ -13,6 +13,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'opensans-regular';
+      src: url('fonts/opensans/OpenSans-Regular-webfont.woff#opensans-regular')  format('svg');
+    }
+}
 @font-face {
     font-family: 'opensans-italic';
     src: url('fonts/opensans/OpenSans-Italic-webfont.eot');
