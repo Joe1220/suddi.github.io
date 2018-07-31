@@ -21,10 +21,10 @@ const Footer = React.createClass({
                                 This site is developed in React.js by&nbsp;
                                 <a
                                     href='https://suddi.github.io'
-                                    title='Sudharshan Ravindran'
+                                    title='JSH Resume'
                                     target='_blank'
                                     rel='noopener noreferrer'>
-                                    Sudharshan Ravindran
+                                    Jo Seung Hyun
                                 </a> from the original design of Ceevee from&nbsp;
                                 <a
                                     href='http://www.styleshout.com/'
