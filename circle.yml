@@ -1,8 +1,8 @@
 machine:
     timezone:
-        Asia/Hong_Kong
+        Asia/Seoul
     node:
-        version: '6.10.0'
+        version: '8.11.3'
 test:
     override:
         - source ./bin/ci.sh:

@@ -26,6 +26,11 @@
     "node": ">= 4.0.0",
     "npm": ">= 2.0.0"
   },
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
   "scripts": {
     "bundle": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",

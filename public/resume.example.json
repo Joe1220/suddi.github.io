@@ -1,43 +1,54 @@
 {
     "basics": {
-        "name": "<FULL_NAME>",
-        "label": "<PROFESSION>",
-        "picture": "<PHOTO>",
-        "email": "<EMAIL_ADDRESS>",
-        "phone": "<PHONE_NUMBER>",
-        "website": "<WEBSITE>",
+        "name": "Jo Seung Hyun",
+        "label": "Fron Web Programmer",
+        "picture": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p240x240/1545713_521824581255505_5006812269139835012_n.jpg?_nc_cat=0&oh=4bf948082480c200365b28230b8fbaab&oe=5BCD8C9F",
+        "email": "joe1220@daum.net",
+        "phone": "+82 (0)10 8963 4207",
+        "website": "https://github.com/Joe1220",
         "summary": [
-            "<SUMMARY_1>",
-            "<SUMMARY_2>",
-            "<SUMMARY_3>"
+            "Front Web Programmer",
+            "Game",
+            "Calisthenics"
         ],
         "location": {
-            "address": "<ADDRESS>",
+            "address": "인천광역시 동구 서해대로 564-5",
             "postalCode": "<POSTAL_CODE>",
-            "city": "<CITY>",
-            "countryCode": "<COUNTRY>",
-            "region": "<REGION>"
+            "city": "Incheon, Republic Of Korea",
+            "countryCode": "인천광역시 동구 서해대로 564-5",
+            "region": "Korea"
         },
         "profiles": [
             {
                 "network": "<NETWORK>",
-                "username": "<USERNAME>",
+                "username": "Jo Seung Hyun",
                 "url": "<URL>"
             }
         ]
     },
     "work": [
         {
-            "company": "<COMPANY_NAME>",
-            "position": "<POSITION>",
-            "website": "<COMPANY_WEBSITE>",
-            "startDate": "<START_DATE>",
-            "endDate": "<END_DATE>",
-            "summary": "<SUMMARY>",
+            "company": "(주)에스원",
+            "position": "Building Facility Architectural Management",
+            "website": "https://www.s1.co.kr/service/service06_01.do",
+            "startDate": "2014-06",
+            "endDate": "2014-10",
+            "summary": "건축 시설관리",
             "highlights": [
-                "<HIGHTLIGHT_1>",
-                "<HIGHTLIGHT_2>",
-                "<HIGHTLIGHT_3>"
+                "삼성 반도체 공장 단지 내 건축 관련 시설 공사 감독",
+                "건축 관련 시설 견적 및 수량 산출"
+            ]
+        },
+        {
+            "company": "인천 컨테이너 터미널(주)",
+            "position": "factory facility management",
+            "website": "https://www.psa-ict.co.kr/main/main.psa",
+            "startDate": "2016-01",
+            "endDate": "2016-12",
+            "summary": "종합 시설관리",
+            "highlights": [
+                "전기, 건축, 기계설비 등 종합 시설관리 대응 작업",
+                "기타 소규모 자재 파손시 보수 및 교체"
             ]
         }
     ],
@@ -58,15 +69,29 @@
     ],
     "education": [
         {
-            "institution": "<INSTITUTION_NAME>",
-            "area": "<AREA_OF_STUDY>",
-            "studyType": "<STUDY_TYPE>",
-            "startDate": "<START_DATE>",
-            "endDate": "<END_DATE>",
-            "gpa": "<GRADE_POINT_AVERAGE>",
-            "summary": "<SUMMARY>",
+            "institution": "INHA Technical College",
+            "area": "Incheon",
+            "studyType": "Architecture",
+            "startDate": "2009-02",
+            "endDate": "2015-02",
+            "gpa": "3.57/4.5",
+            "summary": "건축 전공",
             "courses": [
-                "<COURSE_1>",
+                "건축학",
+                "<COURSE_2>",
+                "<COURSE_3>"
+            ]
+        },
+        {
+            "institution": "코드스테이츠(CodeStates)",
+            "area": "Seoul",
+            "studyType": "Web Programming",
+            "startDate": "2017-08",
+            "endDate": "2018-03",
+            "gpa": "",
+            "summary": "웹 개발자 교육",
+            "courses": [
+                "건축학",
                 "<COURSE_2>",
                 "<COURSE_3>"
             ]
@@ -82,35 +107,50 @@
     ],
     "projects": [
         {
-            "name": "<PUBLICATION_NAME>",
+            "name": "Waggle Chat",
             "publisher": "<PUBLISHER>",
-            "category": "<CATEGORY>",
-            "releaseDate": "<RELEASE_DATE>",
-            "website": "<WEBSITE>",
-            "summary": "<SUMMARY>",
+            "category": "Web",
+            "releaseDate": "2018-02",
+            "website": "https://bit.ly/2mOlaD7",
+            "summary": "Meteor Chatting Web App",
             "image": {
-                "modal": "<MODAL_IMAGE>",
-                "thumb": "<THUMBNAIL_IMAGE>"
+                "modal": "https://steemitimages.com/DQmYzh436SgtNwBJnUWcUnN2xsDPq6XZTEgJU3pW5aPHEEu/6a00d83451b36c69e201b7c8cd59ee970b-600wi.png",
+                "thumb": "https://steemitimages.com/DQmYzh436SgtNwBJnUWcUnN2xsDPq6XZTEgJU3pW5aPHEEu/6a00d83451b36c69e201b7c8cd59ee970b-600wi.png"
             },
             "keywords": [
-                "<KEYWORD_1>",
-                "<KEYWORD_2>",
-                "<KEYWORD_3>"
+                "Meteor",
+                "Mongo"
             ]
         }
     ],
     "skills": [
         {
-            "title": "<DESCRIPTION_TITLE>",
+            "title": "Programming Languages",
             "description": [
-                "<DESCRIPTION_1>",
-                "<DESCRIPTION_2>",
-                "<DESCRIPTION_3>"
+                "Worked primarily with JavaScript and Python with frameworks such as React.js and Django. 주로 React, Redux와 Scss, 그리고 Django로 프로젝트를 진행합니다."
             ],
             "skillDetails": [
                 {
-                    "name": "<SKILL_NAME>",
-                    "level": "<SKILL_LEVEL>",
+                    "name": "Javascript",
+                    "level": "70",
+                    "keywords": [
+                        "<KEYWORD_1>",
+                        "<KEYWORD_2>",
+                        "<KEYWORD_3>"
+                    ]
+                },
+                {
+                    "name": "PYTHON",
+                    "level": "50",
+                    "keywords": [
+                        "<KEYWORD_1>",
+                        "<KEYWORD_2>",
+                        "<KEYWORD_3>"
+                    ]
+                },
+                {
+                    "name": "React",
+                    "level": "60",
                     "keywords": [
                         "<KEYWORD_1>",
                         "<KEYWORD_2>",
@@ -122,13 +162,13 @@
     ],
     "languages": [
         {
-            "name": "<LANGUAGE_NAME>",
+            "name": "Enlgish",
             "level": "<LANGUAGE_LEVEL>"
         }
     ],
     "interests": [
         {
-            "name": "<INTEREST_NAME>",
+            "name": "Calasthenics",
             "keywords": [
                 "<KEYWORD_1>",
                 "<KEYWORD_2>",
@@ -138,10 +178,10 @@
     ],
     "references": [
         {
-            "name": "<REFERENCE_NAME>",
-            "position": "<POSITION>",
-            "company": "<COMPANY>",
-            "reference": "<SUMMARY>"
+            "name": "구본철",
+            "position": "책 '오늘 눈부신 하루를 위하여'",
+            "company": "",
+            "reference": "자신이 잘하는 방식으로 말하는 것. 이것은 강점의 계발과 더불어 성과를 올릴 수 있는 또 하나의 강력한 방법이다."
         }
     ]
 }
