@@ -19,9 +19,8 @@ const Entry = React.createClass({
                     <h3>{this.props.entry.institution}</h3>
                     <p className='info'>
                         {this.props.entry.area}
-                        <span> &bull; </span>
                         <span className='info-summary'>{this.props.entry.summary}</span>
-                        <span> &bull; </span>
+                        {this.props.entry.startData ? <span> &bull; </span> : null}
                         <em className='date'>{startDate} - {endDate}</em>
                     </p>
                 </div>
