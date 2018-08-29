@@ -59,7 +59,8 @@ const Home = React.createClass({
                     skills={this.state.resume.skills}
                     languages={this.state.resume.languages}
                     portfolio={this.state.resume.projects}
-                    references={this.state.resume.references}/>
+                    // references={this.state.resume.references}
+                />
             </div>
         );
     },

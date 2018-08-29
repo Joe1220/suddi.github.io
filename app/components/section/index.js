@@ -35,7 +35,6 @@ const Section = React.createClass({
                 <Education content={this.props.education}/>
                 <Skills content={skillsContent}/>
                 <Portfolio content={this.props.portfolio}/>
-                <References content={this.props.references}/>
                 <Footer content={this.props.basics}/>
             </div>
         );
@@ -43,3 +42,5 @@ const Section = React.createClass({
 });
 
 module.exports = Section;
+
+// <References content={this.props.references}/>
