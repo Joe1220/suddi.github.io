@@ -671,7 +671,10 @@ strong.fa-quora {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+  min-height: 175px;
+  min-width: 250px;
 }
 .portfolio-item .item-wrap a {
    display: block;

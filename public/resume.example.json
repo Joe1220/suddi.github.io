@@ -166,8 +166,8 @@
             "website": "https://github.com/Joe1220/goodParents/",
             "summary": " Reac와 Express를 이용해서 만든 유아식 음식을 위한 간단한 Shopping mall입니다. 3인 프로젝트에서 전체 React의 구조, React-Router Structure, state와 props관리, css작업 등 전반적인 Front-End작업을 담당하였습니다. 이후 배포를 위해 따로 1인 작업을 하였고, heroku를 통해 production 하였습니다.",
             "image": {
-                "modal": "https://t1.daumcdn.net/cfile/tistory/23455A4F51DD5AA60C",
-                "thumb": "https://t1.daumcdn.net/cfile/tistory/23455A4F51DD5AA60C"
+                "modal": "https://images.ctfassets.net/6m9bd13t776q/41NtbE9GNGkCmq2KSkMC6U/0d564b28bcc6ef07e8e6447194974e22/top-7-packaged-baby-foods-2160x1200.jpg?q=75",
+                "thumb": "https://images.ctfassets.net/6m9bd13t776q/41NtbE9GNGkCmq2KSkMC6U/0d564b28bcc6ef07e8e6447194974e22/top-7-packaged-baby-foods-2160x1200.jpg?q=75"
             },
             "keywords": [
                 "React",
