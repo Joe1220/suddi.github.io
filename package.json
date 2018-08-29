@@ -3,7 +3,7 @@
   "private": true,
   "description": "Jo Seung Hyun personal site",
   "version": "1.2.2",
-  "homepage": "http://jshresume.co.nf",
+  "homepage": ".",
   "author": {
     "name": "Jo Seung Hyun",
     "email": "joe1220@daum.net",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suddi/suddi.github.io"
+    "url": "https://github.com/joe1220/suddi.github.io"
   },
   "bugs": {
-    "url": "https://github.com/suddi/suddi.github.io/issues"
+    "url": "https://github.com/joe1220/suddi.github.io/issues"
   },
   "licenses": [
     {
       "type": "Apache-2.0",
-      "url": "https://github.com/suddi/suddi.github.io/LICENSE"
+      "url": "https://github.com/joe1220/suddi.github.io/LICENSE"
     }
   ],
   "engines": {
