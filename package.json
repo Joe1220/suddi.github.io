@@ -22,10 +22,6 @@
       "url": "https://github.com/joe1220/suddi.github.io/LICENSE"
     }
   ],
-  "engines": {
-    "node": ">= 4.0.0",
-    "yarn": ">= 1.15.0"
-  },
   "scripts": {
     "bundle": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
