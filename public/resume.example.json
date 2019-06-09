@@ -2,23 +2,21 @@
     "basics": {
         "name": "Jo Seung Hyun",
         "label": "Fron Web Programmer",
-        "picture": "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p240x240/1545713_521824581255505_5006812269139835012_n.jpg?_nc_cat=0&oh=4bf948082480c200365b28230b8fbaab&oe=5BCD8C9F",
+        "picture": "https://avatars1.githubusercontent.com/u/30386090?s=400&u=dc6e2b08f3f672e7614a8b483f000acd0f047a43&v=4",
         "email": "joe1220@daum.net",
         "phone": "+82 (0)10 8963 4207",
         "website": "https://github.com/Joe1220",
         "summary": [
             "Web Programmer에 지원하는 조승현이라고 합니다.", 
             "개발자가 되기위해 codeStates에서 immversive 과정을 수강하였고, Front-End, Back-End 등 Web 개발의 전반적인 부분을 공부하였습니다.",
-            "Front-End 분야, 특히 React/Redux을 통한 Flux pattern, 그리고 responsive한 Web Browser Design 작업에 관심이 많습니다.",
-            "어플리케이션의 전체적인 흐름을 좀 더 공부하기 위해서, Python의 Django를 통한 Back-End부분도 공부하고 있습니다.",
-            "최종 목표는 훌륭한 Full-Stack Programmer가 되는 것입니다!",
+            "현재 coworksys에서 frontend 개발자를 하고 있습니다.",
             "취미는 게임하기와 맨몸운동 하기 입니다!"
         ],
         "location": {
-            "address": "인천광역시 동구 서해대로 564-5",
+            "address": "서울 특별시 관악구 신림동 1573-34",
             "postalCode": "<POSTAL_CODE>",
             "city": "Incheon, Republic Of Korea",
-            "countryCode": "인천광역시 동구 서해대로 564-5",
+            "countryCode": "서울 특별시 관악구 신림동 1573-34",
             "region": "Korea"
         },
         "profiles": [
@@ -68,7 +66,19 @@
                 "전기, 건축, 기계설비 등 종합 시설관리 대응 작업",
                 "기타 소규모 자재 파손시 보수 및 교체"
             ]
-        }
+        },
+        {
+          "company": "(주)코웍시스",
+          "position": "Web Frontend Engineer",
+          "website": "http://coworksys.io/",
+          "startDate": "2018-09",
+          "endDate": "2019-6",
+          "summary": "frontend 개발자",
+          "highlights": [
+              "프론트엔트 전체 담당",
+              "일부 백엔드 유지보수"
+          ]
+      }
     ],
     "volunteer": [
         {
@@ -144,11 +154,11 @@
     "projects": [
         {
             "name": "Waggle Chat",
-            "publisher": "<PUBLISHER>",
-            "category": "Meteor Framework",
+            "publisher": "Joe1220",
+            "category": "Meteor",
             "releaseDate": "2018-02",
             "website": "https://github.com/Joe1220/waggleChat",
-            "summary": "Meteor 풀스택 자바스크립트 플랫폼으로 만든 Chatting Web App입니다. 2인 project에서 전체 Design, Front-End View, Database(mongodb), deploy 부분을 담당하였습니다.",
+            "summary": "(코트스테이츠) Meteor 풀스택 자바스크립트 플랫폼으로 만든 Chatting Web App입니다. 2인 project에서 전체 Design, Front-End View, Database(mongodb), deploy 부분을 담당하였습니다.",
             "image": {
                 "modal": "https://steemitimages.com/DQmYzh436SgtNwBJnUWcUnN2xsDPq6XZTEgJU3pW5aPHEEu/6a00d83451b36c69e201b7c8cd59ee970b-600wi.png",
                 "thumb": "https://steemitimages.com/DQmYzh436SgtNwBJnUWcUnN2xsDPq6XZTEgJU3pW5aPHEEu/6a00d83451b36c69e201b7c8cd59ee970b-600wi.png"
@@ -160,11 +170,11 @@
         },
         {
             "name": "good parents",
-            "publisher": "<PUBLISHER>",
-            "category": "React + Express Framework",
+            "publisher": "Joe1220",
+            "category": "React, Express, Heroku",
             "releaseDate": "2018-03",
             "website": "https://github.com/Joe1220/goodParents/",
-            "summary": " Reac와 Express를 이용해서 만든 유아식 음식을 위한 간단한 Shopping mall입니다. 3인 프로젝트에서 전체 React의 구조, React-Router Structure, state와 props관리, css작업 등 전반적인 Front-End작업을 담당하였습니다. 이후 배포를 위해 따로 1인 작업을 하였고, heroku를 통해 production 하였습니다.",
+            "summary": "(코트스테이츠) Reac와 Express를 이용해서 만든 유아식 음식을 위한 간단한 Web Shopping mall입니다. 3인 프로젝트에서 전체 React의 구조, React-Router Structure, state와 props관리, css작업 등 전반적인 Front-End작업을 담당하였습니다. 이후 배포를 위해 따로 1인 작업을 하였고, heroku를 통해 production 하였습니다.",
             "image": {
                 "modal": "https://images.ctfassets.net/6m9bd13t776q/41NtbE9GNGkCmq2KSkMC6U/0d564b28bcc6ef07e8e6447194974e22/top-7-packaged-baby-foods-2160x1200.jpg?q=75",
                 "thumb": "https://images.ctfassets.net/6m9bd13t776q/41NtbE9GNGkCmq2KSkMC6U/0d564b28bcc6ef07e8e6447194974e22/top-7-packaged-baby-foods-2160x1200.jpg?q=75"
@@ -176,21 +186,24 @@
             ]
         },
         {
-            "name": "JSHGram",
+            "name": "automore",
             "publisher": "Joe1220",
-            "category": "Redux, Django",
-            "releaseDate": "2018-08",
-            "website": "https://github.com/Joe1220/nomadgram",
-            "summary": "1인 project로 진행하였습니다. Redux, Django로 Instagram을 Clone한 Project입니다. AWS의 Elastic Beanstalk로 배포하였습니다.",
+            "category": "React, React-Native, Koa, Mobx, Styled-Components, Nginx, firebase",
+            "releaseDate": "2019-04",
+            "website": "https://play.google.com/store/apps/details?id=com.automore_rn&hl=en_US",
+            "summary": "react-native(android)개발, node(koa)서버 api개발 및 유지보수, web admin 유지보수 역할을 하였습니다. 첫 프로젝트여서 구조적으로 엉성한 면도 있지만 full stack으로 개발을 할 수 있었던 뜻깊은 프로젝트였습니다. firebase를 이용하여 push 서비스를 포함하였습니다.",
             "image": {
-                "modal": "http://res.thegear.co.kr/images/20161202/20161202103718378082.jpg",
-                "thumb": "http://res.thegear.co.kr/images/20161202/20161202103718378082.jpg"
+                "modal": "https://lh3.googleusercontent.com/1pBzXI4CkkyKU3o7t5dMU17Jo6OUqIwjeWs6JwYk0Wfa9RdHE5WLKIyxo1jb548BhQ=w1865-h1221-rw",
+                "thumb": "https://lh3.googleusercontent.com/UHFkk-NO7Pc78bIyzRNBQOM2rr96qnRdr7HGADlip3dDJejwoVpuZdTKbixmNsHfmSc"
             },
             "keywords": [
                 "React",
-                "Redux",
-                "Django",
-                "AWS"
+                "React-Native",
+                "Koa",
+                "Mobx",
+                "Styled-Components",
+                "Nginx", 
+                "firebase"
             ]
         }
     ],
@@ -199,16 +212,36 @@
             "title": "Programming Languages",
             "description": [
                 "HTML",
-                "CSS:  Sass/Scss을 이용하여 Front의 스타일을 구성할 수 있습니다.",
+                "Style:  주로 styled-components을 사용하며 scss도 사용합니다.",
                 "Javascript: 주력 언어입니다. Front상에서 다양한 이벤트, 스타일 구성을 담당합니다.",
-                "Python: Django을 사용하여 Back-End에서 REST API, Serializer 구성, Authentication 등을 담당합니다.",
-                "Git: GitHub의 branch 등을 이용한 Project 관리",
-                "React: Front-End를 구성할 때 가장 많이 사용하는 Library입니다. Component구성, Router, Redux을 이용한 state구성 등...Front-End전반을 다룹니다.",
-                "AWS: 배포할 때 사용합니다. 주로 elastic beanstalk을 사용합니다. RDS를 이용한 데이터베이스, S3를 이용한 스토리지 서비스를 사용하여 배포합니다."
+                "Mobx: data state 관리",
+                "Git: bitbucket을 이용한 프로젝트 관리",
+                "React: Component구성, Router, mobx 이용한 state구성",
+                "React-Native: android 버전개발, navigation 구성",
+                "Koa: api개발, middleware 처리, sequelize 이용...",
+                "AWS: 배포할 때 사용합니다. ec2, nginx을 이용합니다."
             ],
             "skillDetails": [
                 {
                     "name": "Javascript",
+                    "level": "80",
+                    "keywords": [
+                        "<KEYWORD_1>",
+                        "<KEYWORD_2>",
+                        "<KEYWORD_3>"
+                    ]
+                },
+                {
+                  "name": "Mobx",
+                  "level": "80",
+                  "keywords": [
+                      "<KEYWORD_1>",
+                      "<KEYWORD_2>",
+                      "<KEYWORD_3>"
+                  ]
+              },
+                {
+                    "name": "React",
                     "level": "70",
                     "keywords": [
                         "<KEYWORD_1>",
@@ -217,8 +250,8 @@
                     ]
                 },
                 {
-                    "name": "PYTHON",
-                    "level": "50",
+                    "name": "React-Native",
+                    "level": "65",
                     "keywords": [
                         "<KEYWORD_1>",
                         "<KEYWORD_2>",
@@ -226,14 +259,32 @@
                     ]
                 },
                 {
-                    "name": "React",
-                    "level": "60",
-                    "keywords": [
-                        "<KEYWORD_1>",
-                        "<KEYWORD_2>",
-                        "<KEYWORD_3>"
-                    ]
-                }
+                  "name": "styled-components",
+                  "level": "55",
+                  "keywords": [
+                      "<KEYWORD_1>",
+                      "<KEYWORD_2>",
+                      "<KEYWORD_3>"
+                  ]
+              },
+              {
+                "name": "Koa(node)",
+                "level": "50",
+                "keywords": [
+                    "<KEYWORD_1>",
+                    "<KEYWORD_2>",
+                    "<KEYWORD_3>"
+                ]
+            },
+            {
+                "name": "SASS(scss)",
+                "level": "50",
+                "keywords": [
+                    "<KEYWORD_1>",
+                    "<KEYWORD_2>",
+                    "<KEYWORD_3>"
+                ]
+            }
             ]
         }
     ],

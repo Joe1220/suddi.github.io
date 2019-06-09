@@ -675,6 +675,8 @@ strong.fa-quora {
   
   min-height: 175px;
   min-width: 250px;
+  max-height: 175px;
+
 }
 .portfolio-item .item-wrap a {
    display: block;
