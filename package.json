@@ -29,7 +29,6 @@
   "scripts": {
     "bundle": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
-    "prepush": "npm run lint && npm run security-check",
     "security-check": "nsp check --output summary",
     "start": "webpack-dev-server --hot --inline",
     "test": "npm run lint && npm run security-check && npm run bundle"
