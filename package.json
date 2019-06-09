@@ -25,6 +25,8 @@
   "scripts": {
     "bundle": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p",
     "security-check": "nsp check --output summary",
     "start": "webpack-dev-server --hot --inline",
     "test": "npm run lint && npm run security-check && npm run bundle"
