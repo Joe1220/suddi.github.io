@@ -13,8 +13,8 @@ function getConfig(config) {
     const plugins = config.plugins;
     const extendedPlugins = plugins.concat([
         new S3Plugin({
-            s3Options: {
-                region: process.env.AWS_REGION
+            s3UploadOptions: {
+                  Bucket: 'MyBucket'
             },
             s3UploadOptions: {
                 Bucket: process.env.AWS_S3_BUCKET
@@ -23,8 +23,8 @@ function getConfig(config) {
             include: /index\.html$/
         }),
         new S3Plugin({
-            s3Options: {
-                region: process.env.AWS_REGION
+            s3UploadOptions: {
+                  ACL: 'private'
             },
             s3UploadOptions: {
                 Bucket: process.env.AWS_S3_BUCKET

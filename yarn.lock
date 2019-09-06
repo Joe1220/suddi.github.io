@@ -6097,7 +6097,7 @@ webpack-dev-server@2.7.1:
     webpack-dev-middleware "^1.11.0"
     yargs "^6.0.0"
 
-webpack-s3-plugin@^0.9.0:
+webpack-s3-plugin@^0.9.2:
   version "0.9.2"
   resolved "https://registry.yarnpkg.com/webpack-s3-plugin/-/webpack-s3-plugin-0.9.2.tgz#e927d05e204283c41101c04e9b9b15bae852fb8a"
   integrity sha1-6SfQXiBCg8QRAcBOm5sVuuhS+4o=
